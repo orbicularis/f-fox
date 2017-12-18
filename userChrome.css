@@ -1,0 +1,3 @@
+/* Make the URL bar and search bar bigger and bolder. */
+#urlbar, #searchbar .searchbar-textbox{
+font-family: Overpass !important; font-size: 10pt }
