@@ -1,3 +1,21 @@
+/**/
 /* Make the URL bar and search bar bigger and bolder. */
 #urlbar, #searchbar .searchbar-textbox{
-font-family: Overpass !important; font-size: 10pt }
+font-family: Overpass !important; font-size: 12pt }
+/**/
+/* Make the menubar area larger */
+#toolbar-menubar{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+/**/
+/* Make menubar larger with a mutiplier (2em = 2x the 13px base font size) */
+/*#toolbar-menubar{
+  height:3em !important; 
+}*/
+/**/
+/* Make the bookmark bar larger */
+#PlacesToolbarItems .bookmark-item {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
