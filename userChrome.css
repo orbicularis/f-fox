@@ -1,12 +1,16 @@
 /**/
 /* Make the URL bar and search bar bigger and bolder. */
 #urlbar, #searchbar .searchbar-textbox{
-font-family: Overpass !important; font-size: 12pt }
+   font-family: Inconsolata !important;
+   font-size: 12pt; 
+}
 /**/
 /* Make the menubar area larger */
 #toolbar-menubar{
   padding-top: 10px !important;
   padding-bottom: 10px !important;
+  font-family: Inconsolata !important;
+  font-size: 11pt;
 }
 /**/
 /* Make menubar larger with a mutiplier (2em = 2x the 13px base font size) */
@@ -18,4 +22,6 @@ font-family: Overpass !important; font-size: 12pt }
 #PlacesToolbarItems .bookmark-item {
   padding-top: 10px !important;
   padding-bottom: 10px !important;
+  font-family: Inconsolata !important;
+  font-size: 11pt;
 }
